@@ -8,7 +8,7 @@ main()
        chmod("aPipe", 0660);  /* Change its permissions */ 
        fd = open("aPipe", O_RDONLY);  /* Open it for reading */ 
         while(readLine(fd, str) );  /* Display received messages */ 
-          printf("%s\n", str); 
+          printf("%s\n", str "neha"); 
        close(fd);   /* Close pipe */ 
      }
 
